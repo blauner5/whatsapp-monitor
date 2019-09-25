@@ -1,1 +1,2 @@
 # WhatsApp Monitor 🖥
+## Requirements:
