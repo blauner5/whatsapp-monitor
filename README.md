@@ -5,5 +5,5 @@
 -MySQL Ver 15.1 Distrib 10.1.36-MariaDB<br/>
 
 ## Install (Windows)
--XAMPP: https://www.apachefriends.org/it/index.html
--Python: https://www.python.org/downloads/
+-XAMPP: https://www.apachefriends.org/it/index.html <br/>
+-Python: https://www.python.org/downloads/ <br/>
