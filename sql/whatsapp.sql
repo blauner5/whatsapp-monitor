@@ -1,0 +1,20 @@
+CREATE DATABASE whatsapp;
+USE whatsapp;
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE TABLE `accessi` (
+  `id` int(250) NOT NULL,
+  `nome` varchar(35) DEFAULT NULL,
+  `data` varchar(35) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `accessi`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `accessi`
+  MODIFY `id` int(250) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+COMMIT;
